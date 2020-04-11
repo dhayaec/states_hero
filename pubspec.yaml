@@ -15,6 +15,7 @@ dependencies:
   cupertino_icons: ^0.1.3
   states_rebuilder:
   get_it:
+  faker:
 
 dev_dependencies:
   flutter_test:
@@ -22,6 +23,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
 
   
   

@@ -6,6 +6,7 @@ class Product {
   final String description;
   final double price;
   bool isLiked;
+  bool isSaved;
 
   Product({
     @required this.id,
@@ -13,5 +14,6 @@ class Product {
     @required this.description,
     @required this.price,
     this.isLiked = false,
+    this.isSaved = false,
   });
 }
